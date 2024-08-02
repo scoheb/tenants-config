@@ -1,5 +1,0 @@
-apiVersion: v1
-kind: ServiceAccount
-metadata:
-  namespace: rhtap-releng-tenant
-  name: releng-gitops-repo-rw

@@ -1,9 +1,0 @@
-apiVersion: kustomize.config.k8s.io/v1beta1
-kind: Kustomization
-namespace: hcc-notifications-tenant
-resources:
-- notifications-enterprise-contract_integration_test.yaml
-- notifications_release_plan.yaml
-# The integration between Konflux and Bonfire must remain disabled until KONFLUX-2694 is fixed
-# - notifications-tekton-insights_integration_test.yaml
-# - ../../../../lib/consoledot-test-pipeline

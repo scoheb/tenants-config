@@ -1,9 +1,0 @@
-- op: replace
-  path: /metadata/name
-  value: siteconfig
-- op: replace
-  path: /spec/description
-  value: "siteconfig"
-- op: replace
-  path: /spec/displayName
-  value: "siteconfig"

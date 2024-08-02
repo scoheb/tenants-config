@@ -1,6 +1,0 @@
----
-apiVersion: v1
-kind: ServiceAccount
-metadata:
-  name: konflux-integration-service-sa
-  namespace: rhtap-releng-tenant
